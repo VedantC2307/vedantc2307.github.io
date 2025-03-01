@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import { projects } from '../../data/content';
 
 const Projects = () => {
+  const handleViewDetails = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className="container mx-auto px-4 py-16" id="projects">
       <h2 className="text-4xl font-bold text-center mb-12 text-gray-800 dark:text-white">
@@ -32,6 +36,16 @@ const Projects = () => {
                 {project.title === "Custom 3D Printer" && (
                   <Link
                     to="/3d-printer-project"
+                    onClick={handleViewDetails}
+                    className="text-white bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-md transition-colors"
+                  >
+                    View Details
+                  </Link>
+                )}
+                {project.title === "Conversion of 2D/3D Layouts into 3D Printable Design" && (
+                  <Link
+                    to="/patent-project"
+                    onClick={handleViewDetails}
                     className="text-white bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-md transition-colors"
                   >
                     View Details
