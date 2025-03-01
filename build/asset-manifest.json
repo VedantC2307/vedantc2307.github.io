@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.6a6762eb.css",
-    "main.js": "/static/js/main.acebf3c9.js",
+    "main.css": "/static/css/main.2745b5cb.css",
+    "main.js": "/static/js/main.5e46240f.js",
     "static/js/453.b2601152.chunk.js": "/static/js/453.b2601152.chunk.js",
     "static/media/3d_printer_gif.mp4": "/static/media/3d_printer_gif.1624a24b2a42ae31ed99.mp4",
     "static/media/3d printer.png": "/static/media/3d printer.fde373647526612e77c4.png",
     "static/media/3d_printer_3.jpeg": "/static/media/3d_printer_3.3429fe54958acaefe133.jpeg",
     "static/media/3d_printer_4.jpeg": "/static/media/3d_printer_4.d59c6dfce56e739278d1.jpeg",
+    "static/media/truss_wall.png": "/static/media/truss_wall.bb9d16780621615acd06.png",
+    "static/media/sine_waffle.png": "/static/media/sine_waffle.3d61f8350dd8528558ae.png",
+    "static/media/triangle_waffle.png": "/static/media/triangle_waffle.6dfc8e4b5d261ba480a2.png",
+    "static/media/cinder_waffle.png": "/static/media/cinder_waffle.da671fdffac049d58271.png",
     "static/media/3d_printer_5.jpeg": "/static/media/3d_printer_5.9182f1c3ce4d3fa493cc.jpeg",
     "static/media/3d_printer_1.jpeg": "/static/media/3d_printer_1.93e0c0185c6dd69eab08.jpeg",
+    "static/media/layer_section.png": "/static/media/layer_section.919495a5ec63d7b68ab2.png",
     "static/media/3d_printer_2.jpeg": "/static/media/3d_printer_2.92f6f066699ae48071c3.jpeg",
     "index.html": "/index.html",
-    "main.6a6762eb.css.map": "/static/css/main.6a6762eb.css.map",
-    "main.acebf3c9.js.map": "/static/js/main.acebf3c9.js.map",
+    "main.2745b5cb.css.map": "/static/css/main.2745b5cb.css.map",
+    "main.5e46240f.js.map": "/static/js/main.5e46240f.js.map",
     "453.b2601152.chunk.js.map": "/static/js/453.b2601152.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a6762eb.css",
-    "static/js/main.acebf3c9.js"
+    "static/css/main.2745b5cb.css",
+    "static/js/main.5e46240f.js"
   ]
 }
