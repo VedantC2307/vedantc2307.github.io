@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fec17fea.css",
-    "main.js": "/static/js/main.4c859844.js",
+    "main.js": "/static/js/main.050b717a.js",
     "static/js/453.b2601152.chunk.js": "/static/js/453.b2601152.chunk.js",
     "static/media/3d_printer_gif.mp4": "/static/media/3d_printer_gif.1624a24b2a42ae31ed99.mp4",
     "static/media/3d printer.png": "/static/media/3d printer.fde373647526612e77c4.png",
@@ -17,11 +17,11 @@
     "static/media/3d_printer_2.jpeg": "/static/media/3d_printer_2.92f6f066699ae48071c3.jpeg",
     "index.html": "/index.html",
     "main.fec17fea.css.map": "/static/css/main.fec17fea.css.map",
-    "main.4c859844.js.map": "/static/js/main.4c859844.js.map",
+    "main.050b717a.js.map": "/static/js/main.050b717a.js.map",
     "453.b2601152.chunk.js.map": "/static/js/453.b2601152.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fec17fea.css",
-    "static/js/main.4c859844.js"
+    "static/js/main.050b717a.js"
   ]
 }
