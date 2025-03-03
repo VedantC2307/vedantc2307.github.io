@@ -2,7 +2,7 @@ export const portfolioData = {
     personalInfo: {
       name: "Vedant Choudhary",
       title: "Robotics & Autonomous Systems Engineer",
-      subtitle: "Specializing in Robotics, Controls, and Embedded Systems",
+      subtitle: "I build robotic system!",
       email: "vchoud10@asu.edu",
       github: "https://github.com/VedantC2307",
       linkedin: "https://linkedin.com/in/vedant2307"
@@ -155,8 +155,11 @@ export const skills = {
   ],
   designAndSimulation: [
     "Solidworks",
+    "Fusion 360",
+    "AutoCAD",
     "MATLAB",
     "Simulink",
+    "LabVIEW",
     "KiCad"
   ],
   sensorsAndInterfaces: [
@@ -231,7 +234,6 @@ export const projects = [
     title: "Collaborative Multi-Robot Exploration & 2D Scene Reconstruction",
     technologies: "ROS2, Multi-Robot Systems, LiDAR",
     githubLink: "https://github.com/VedantC2307/MAE598-MultiRobotSystemsProject",
-    // description: "Roll-E integrates language models with a mobile robot platform, enabling natural language control and autonomous movement. Using a smartphone as its sensor hub for vision, positioning and voice interaction, this meccanum wheel robot demonstrates how LLMs can power real-world robotics applications. Built on ROS2 with ongoing development in navigation and NLP capabilities."
     description: "Developed ROS2-based multi-robot system for collaborative 3D mapping with 2D LiDAR. This project aims to enable synchronized exploration & real-time data fusion from multiple robots in dynamic environments."
   },
   {
@@ -268,8 +270,8 @@ export const contact = {
 
 export const bio = {
   name: "Vedant Choudhary",
-  title: "MS in Robotics and Autonomous Systems",
-  subtitle: "Specializing in Robotics, Controls, and Embedded Systems",
+  title: "MS in Robotics & Autonomous Systems",
+  subtitle: "I Build Robotics Systems! 🤖",
   description: `From the intricate dance of robot limbs to the symphony of code, I thrive at the heart of robotics. Currently pursuing a 
   Master's in Robotics, I am immersed in the intricacies of human-robot interactions at the Neurorobotics Lab. My background in Mechatronics 
   and Robotics engineering is complemented by my proficiency in electro-mechanical systems, control, PCB/CAD design, and software.

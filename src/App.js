@@ -14,13 +14,13 @@ import PatentProject from './components/PatentProject';
 
 function App() {
   return (
-    <Router>
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+      <Router>
         <Nav />
         <Routes>
-          <Route path="/3d-printer-project" element={<PrinterProject />} />
-          <Route path="/patent-project" element={<PatentProject />} />
-          <Route path="/" element={
+          <Route exact path="/3d-printer-project" element={<PrinterProject />} />
+          <Route exact path="/patent-project" element={<PatentProject />} />
+          <Route exact path="/" element={
             <main className="pt-16">
               <Hero />
               {/* <About /> // Keep this commented out*/}
@@ -33,8 +33,8 @@ function App() {
             </main>
           } />
         </Routes>
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 
