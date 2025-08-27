@@ -3,19 +3,19 @@ import { publications } from '../../data/content';
 
 const Patent = () => {
   return (
-    <section className="container mx-auto px-6 py-16" id="patent">
+    <section className="w-[95%] sm:w-[60%] mx-auto px-4 sm:px-6 py-12 sm:py-16" id="patent">
       {/* Section Header */}
-      <div className="text-center mb-16">
-        <div className="inline-block mb-4 font-mono text-tech-blue-600 dark:text-tech-blue-400">
+      <div className="text-center mb-12 sm:mb-16">
+        <div className="inline-block mb-4 font-mono text-xs sm:text-sm text-tech-blue-600 dark:text-tech-blue-400">
           <span className="text-circuit-green-500">$</span> find /patents -name "*.pending"
         </div>
-        <h2 className="text-4xl font-bold text-gray-800 dark:text-white mb-4 font-tech">
+        <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 dark:text-white mb-4 font-tech">
           Patent <span className="bg-gradient-to-r from-tech-blue-600 to-cyber-purple-600 bg-clip-text text-transparent">Portfolio</span>
         </h2>
-        <div className="w-24 h-1 bg-gradient-to-r from-tech-blue-600 to-cyber-purple-600 mx-auto rounded-full"></div>
+        <div className="w-20 sm:w-24 h-1 bg-gradient-to-r from-tech-blue-600 to-cyber-purple-600 mx-auto rounded-full"></div>
       </div>
       
-      <div className="max-w-4xl mx-auto space-y-8">
+      <div className="max-w-8xl mx-auto space-y-8">
         {publications.map((pub, index) => (
           <div 
             key={index}

@@ -71,15 +71,10 @@ const PatentProject = () => {
                 </p>
               </div>
               
-              <div className="bg-circuit-green-50 dark:bg-circuit-green-900/20 border-l-4 border-circuit-green-500 p-4 rounded-r-lg">
-                <h3 className="text-xl font-semibold text-circuit-green-700 dark:text-circuit-green-300 mb-3">Solution:</h3>  
-                <p className="text-circuit-green-700 dark:text-circuit-green-300 leading-relaxed">
-                  We developed an algorithm that automates this process, generating structurally optimized designs based on user input.
-                </p>
-              </div>
+            
 
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                Under the guidance of my mentor, COO of Simpliforge Creations, I co-invented a <span className="font-semibold text-tech-blue-600 dark:text-tech-blue-400">patent-pending method</span> to efficiently convert 2D/3D layouts into optimized concrete 3D-printable designs. This involved prototyping, developing a plugin, and leading a team to transform the Rhino Grasshopper algorithm into software—reducing design time and quote turnaround by <span className="font-semibold text-green-600 dark:text-green-400">40%</span>.
+                Under the guidance of my mentor, COO of Simpliforge Creations, I co-invented a <span className="font-semibold text-tech-blue-600 dark:text-tech-blue-400">patent-pending method</span> to efficiently convert 2D/3D layouts into optimized concrete 3D-printable designs. This involved prototyping, developing a plugin in Rhino Grasshopper which helped reduce design time and quote turnaround by <span className="font-semibold text-green-600 dark:text-green-400">40%</span>.
               </p>
 
               <div>
@@ -104,11 +99,7 @@ const PatentProject = () => {
                 The method incorporates intelligent algorithms that automatically generate structurally optimized designs while maintaining architectural integrity. It features customizable truss systems and precise parameter control, allowing for both efficiency and flexibility in the construction process.
               </p>
               
-              <div className="bg-orange-50 dark:bg-orange-900/20 border-l-4 border-orange-500 p-4 rounded-r-lg">
-                <p className="text-orange-700 dark:text-orange-300 font-medium">
-                  <strong>Patent Status:</strong> This innovation is currently patent-pending (filed in 2023), representing a significant advancement in construction 3D printing and automated design optimization.
-                </p>
-              </div>
+              
             </div>
           </div>
         </div>

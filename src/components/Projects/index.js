@@ -8,20 +8,20 @@ const Projects = () => {
   };
 
   return (
-    <section className="w-[90%] mx-auto px-6 py-16" id="projects">
+    <section className="w-[95%] sm:w-[90%] mx-auto px-4 sm:px-6 py-12 sm:py-16" id="projects">
       {/* Section Header */}
-      <div className="text-center mb-16">
-        <div className="inline-block mb-4 font-mono text-tech-blue-600 dark:text-tech-blue-400">
+      <div className="text-center mb-12 sm:mb-16">
+        <div className="inline-block mb-4 font-mono text-xs sm:text-sm text-tech-blue-600 dark:text-tech-blue-400">
           <span className="text-circuit-green-500">$</span> cd /projects && ls -la
         </div>
-        <h2 className="text-4xl font-bold text-gray-800 dark:text-white mb-4 font-tech">
+        <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 dark:text-white mb-4 font-tech">
           Featured <span className="bg-gradient-to-r from-tech-blue-600 to-cyber-purple-600 bg-clip-text text-transparent">Projects</span>
         </h2>
-        <div className="w-24 h-1 bg-gradient-to-r from-tech-blue-600 to-cyber-purple-600 mx-auto rounded-full"></div>
+        <div className="w-20 sm:w-24 h-1 bg-gradient-to-r from-tech-blue-600 to-cyber-purple-600 mx-auto rounded-full"></div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-8xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 max-w-8xl mx-auto items-stretch">
         {projects.map((project, index) => (
-          <div key={index} className="tech-card overflow-hidden group">
+          <div key={index} className="tech-card overflow-hidden group flex flex-col h-full">
             {/* Project Header */}
             <div className="p-6 border-b border-gray-200 dark:border-metal-gray-700">
               <div className="flex items-start justify-between mb-3">
@@ -55,7 +55,7 @@ const Projects = () => {
                 {project.technologies.split(', ').map((tech, techIndex) => (
                   <span
                     key={techIndex}
-                    className={`skill-tag text-xs ${
+                    className={`skill-tag ${
                       techIndex % 4 === 0 ? 'bg-tech-blue-100 dark:bg-tech-blue-900/30 text-tech-blue-800 dark:text-tech-blue-200 border border-tech-blue-200 dark:border-tech-blue-800' :
                       techIndex % 4 === 1 ? 'bg-circuit-green-100 dark:bg-circuit-green-900/30 text-circuit-green-800 dark:text-circuit-green-200 border border-circuit-green-200 dark:border-circuit-green-800' :
                       techIndex % 4 === 2 ? 'bg-cyber-purple-100 dark:bg-cyber-purple-900/30 text-cyber-purple-800 dark:text-cyber-purple-200 border border-cyber-purple-200 dark:border-cyber-purple-800' :
@@ -69,13 +69,13 @@ const Projects = () => {
             </div>
             
             {/* Project Content */}
-            <div className="p-6 flex flex-col h-63">
-              <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed" style={{minHeight: '120px'}}>
+            <div className="p-6 flex flex-col flex-grow">
+              <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed flex-grow">
                 {project.description}
               </p>
               
-              {/* Action Buttons */}
-              <div className="flex justify-end space-x-3 mt-6">
+              {/* Action Buttons - Fixed at bottom */}
+              <div className="flex justify-end space-x-3 mt-6 pt-4">
                 {/* View Details Button for specific projects */}
                 {project.hasViewDetails && (
                   <Link

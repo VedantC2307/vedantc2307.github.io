@@ -249,7 +249,7 @@ export const projects = [
   {
     title: "ros2-mobile-sensor-bridge",
     technologies: "Javascript, HTML, CSS, Android",
-    githubLink: "https://github.com/VedantC2307/PiPowerBridge",
+    githubLink: "https://github.com/VedantC2307/ros2-mobile-sensor-bridge",
     description: "Mobile Sensor Bridge for ROS2 transforms your Android/IOS smartphone into a plug‑and‑play sensor suite—streaming camera, spatial pose data, and bidirectional audio into ROS2 topics via rclnodejs. Whether you’re prototyping perception pipelines or building voice‑driven robots, the package lets you leverage your phone’s sensors without extra hardware."
   },
   {

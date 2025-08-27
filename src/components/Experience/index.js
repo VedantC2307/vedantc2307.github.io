@@ -52,7 +52,7 @@ const Experience = () => {
                   exp.technologies.split(', ').filter(tech => tech).map((tech, techIndex) => (
                     <span
                       key={techIndex}
-                      className={`skill-tag text-xs ${
+                      className={`skill-tag ${
                         techIndex % 4 === 0 ? 'bg-tech-blue-100 dark:bg-tech-blue-900/30 text-tech-blue-800 dark:text-tech-blue-200 border border-tech-blue-200 dark:border-tech-blue-800' :
                         techIndex % 4 === 1 ? 'bg-circuit-green-100 dark:bg-circuit-green-900/30 text-circuit-green-800 dark:text-circuit-green-200 border border-circuit-green-200 dark:border-circuit-green-800' :
                         techIndex % 4 === 2 ? 'bg-cyber-purple-100 dark:bg-cyber-purple-900/30 text-cyber-purple-800 dark:text-cyber-purple-200 border border-cyber-purple-200 dark:border-cyber-purple-800' :
