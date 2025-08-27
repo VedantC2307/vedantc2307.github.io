@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.503d64dd.css",
-    "main.js": "/static/js/main.f24d9aff.js",
+    "main.css": "/static/css/main.ad982abb.css",
+    "main.js": "/static/js/main.3ed17013.js",
     "static/js/453.b2601152.chunk.js": "/static/js/453.b2601152.chunk.js",
     "static/media/3d_printer_gif.mp4": "/static/media/3d_printer_gif.1624a24b2a42ae31ed99.mp4",
     "static/media/3d printer.png": "/static/media/3d printer.fde373647526612e77c4.png",
@@ -26,12 +26,12 @@
     "static/media/ros2_odriveCAN.png": "/static/media/ros2_odriveCAN.ee16f3257fd60f3b12f8.png",
     "static/media/Phone_sensor_graph.png": "/static/media/Phone_sensor_graph.accd7af6b2eafaedf86e.png",
     "index.html": "/index.html",
-    "main.503d64dd.css.map": "/static/css/main.503d64dd.css.map",
-    "main.f24d9aff.js.map": "/static/js/main.f24d9aff.js.map",
+    "main.ad982abb.css.map": "/static/css/main.ad982abb.css.map",
+    "main.3ed17013.js.map": "/static/js/main.3ed17013.js.map",
     "453.b2601152.chunk.js.map": "/static/js/453.b2601152.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.503d64dd.css",
-    "static/js/main.f24d9aff.js"
+    "static/css/main.ad982abb.css",
+    "static/js/main.3ed17013.js"
   ]
 }
