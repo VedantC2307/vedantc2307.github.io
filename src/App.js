@@ -11,15 +11,19 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import PrinterProject from './components/PrinterProject';
 import PatentProject from './components/PatentProject';
+import RolleRobotProject from './components/RolleRobotProject';
+import ExoskeletonProject from './components/ExoskeletonProject';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-gray-100 to-blue-50 dark:from-metal-gray-900 dark:via-metal-gray-800 dark:to-metal-gray-900 tech-grid-pattern">
       <Router>
         <Nav />
         <Routes>
           <Route exact path="/3d-printer-project" element={<PrinterProject />} />
           <Route exact path="/patent-project" element={<PatentProject />} />
+          <Route exact path="/ai-assistant-robot" element={<RolleRobotProject />} />
+          <Route exact path="/exoskeleton-project" element={<ExoskeletonProject />} />
           <Route exact path="/" element={
             <main className="pt-16">
               <Hero />

@@ -3,22 +3,36 @@ import { skills } from '../../data/content';
 
 const Skills = () => {
   return (
-    <div className="container mx-auto px-14 py-10" id="skills">
-      <h2 className="text-4xl font-bold text-center mb-12 text-gray-800 dark:text-white">
-        Technical Skills
-      </h2>
+    <section className="w-[90%] mx-auto px-6 py-16" id="skills">
+      {/* Section Header */}
+      <div className="text-center mb-16">
+        <div className="inline-block mb-4 font-mono text-tech-blue-600 dark:text-tech-blue-400">
+          <span className="text-circuit-green-500">$</span> ls -la /skills/
+        </div>
+        <h2 className="text-4xl font-bold text-gray-800 dark:text-white mb-4 font-tech">
+          Technical <span className="bg-gradient-to-r from-tech-blue-600 to-cyber-purple-600 bg-clip-text text-transparent">Arsenal</span>
+        </h2>
+        <div className="w-24 h-1 bg-gradient-to-r from-tech-blue-600 to-cyber-purple-600 mx-auto rounded-full"></div>
+      </div>
       
-      <div className="max-w-[1920px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="max-w-[1920px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {/* Robotics Frameworks */}
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 min-h-[280px] min-w-[250px] flex flex-col">
-          <h3 className="text-xl font-bold mb-4 text-gray-800 dark:text-white">
-            Robotics Frameworks
-          </h3>
-          <div className="flex flex-wrap gap-2">
+        <div className="tech-card p-8 min-h-[320px] flex flex-col group">
+          <div className="flex items-center mb-6">
+            <div className="w-10 h-10 bg-gradient-to-br from-tech-blue-500 to-tech-blue-600 rounded-lg flex items-center justify-center mr-3 group-hover:scale-110 transition-transform duration-300">
+              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+              </svg>
+            </div>
+            <h3 className="text-xl font-bold text-gray-800 dark:text-white font-tech">
+              Robotics Frameworks
+            </h3>
+          </div>
+          <div className="flex flex-wrap gap-2 flex-grow">
             {skills.roboticsFrameworks.map((skill, index) => (
               <span
                 key={index}
-                className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm"
+                className="skill-tag bg-tech-blue-100 dark:bg-tech-blue-900/30 text-tech-blue-800 dark:text-tech-blue-200 border border-tech-blue-200 dark:border-tech-blue-800"
               >
                 {skill}
               </span>
@@ -27,15 +41,22 @@ const Skills = () => {
         </div>
 
         {/* Programming Languages */}
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 min-h-[280px] min-w-[250px] flex flex-col">
-          <h3 className="text-xl font-bold mb-4 text-gray-800 dark:text-white">
-            Programming Languages
-          </h3>
-          <div className="flex flex-wrap gap-2">
+        <div className="tech-card p-8 min-h-[320px] flex flex-col group">
+          <div className="flex items-center mb-6">
+            <div className="w-10 h-10 bg-gradient-to-br from-circuit-green-500 to-circuit-green-600 rounded-lg flex items-center justify-center mr-3 group-hover:scale-110 transition-transform duration-300">
+              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+              </svg>
+            </div>
+            <h3 className="text-xl font-bold text-gray-800 dark:text-white font-tech">
+              Programming Languages
+            </h3>
+          </div>
+          <div className="flex flex-wrap gap-2 flex-grow">
             {skills.programmingLanguages.map((skill, index) => (
               <span
                 key={index}
-                className="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-full text-sm"
+                className="skill-tag bg-circuit-green-100 dark:bg-circuit-green-900/30 text-circuit-green-800 dark:text-circuit-green-200 border border-circuit-green-200 dark:border-circuit-green-800"
               >
                 {skill}
               </span>
@@ -44,32 +65,22 @@ const Skills = () => {
         </div>
 
         {/* Embedded Systems & Interfaces */}
-        {/* <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 min-h-[250px] flex flex-col">
-          <h3 className="text-lg font-bold mb-4 text-gray-800 dark:text-white whitespace-nowrap">
-            Embedded Systems & Interfaces
-          </h3>
-          <div className="flex flex-wrap gap-2">
-            {skills.embeddedSystems.map((skill, index) => (
-              <span
-                key={index}
-                className="px-3 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 rounded-full text-sm"
-              >
-                {skill}
-              </span>
-            ))}
+        <div className="tech-card p-8 min-h-[320px] flex flex-col group">
+          <div className="flex items-center mb-6">
+            <div className="w-10 h-10 bg-gradient-to-br from-cyber-purple-500 to-cyber-purple-600 rounded-lg flex items-center justify-center mr-3 group-hover:scale-110 transition-transform duration-300">
+              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+              </svg>
+            </div>
+            <h3 className="text-xl font-bold text-gray-800 dark:text-white font-tech">
+              Embedded Systems & Interfaces
+            </h3>
           </div>
-        </div> */}
-
-        {/* Embedded Systems & Interfaces */}
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 min-h-[280px] min-w-[250px] flex flex-col">
-          <h3 className="text-xl font-bold mb-4 text-gray-800 dark:text-white">
-            Embedded Systems & Interfaces
-          </h3>
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2 flex-grow">
             {skills.embeddedSystems.map((skill, index) => (
               <span
                 key={index}
-                className="px-3 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 rounded-full text-sm"
+                className="skill-tag bg-cyber-purple-100 dark:bg-cyber-purple-900/30 text-cyber-purple-800 dark:text-cyber-purple-200 border border-cyber-purple-200 dark:border-cyber-purple-800"
               >
                 {skill}
               </span>
@@ -78,15 +89,22 @@ const Skills = () => {
         </div>
 
         {/* Design & Simulation */}
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 min-h-[280px] min-w-[250px] flex flex-col">
-          <h3 className="text-xl font-bold mb-4 text-gray-800 dark:text-white">
-            Design & Simulation
-          </h3>
-          <div className="flex flex-wrap gap-2">
+        <div className="tech-card p-8 min-h-[320px] flex flex-col group">
+          <div className="flex items-center mb-6">
+            <div className="w-10 h-10 bg-gradient-to-br from-yellow-500 to-orange-500 rounded-lg flex items-center justify-center mr-3 group-hover:scale-110 transition-transform duration-300">
+              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+              </svg>
+            </div>
+            <h3 className="text-xl font-bold text-gray-800 dark:text-white font-tech">
+              Design & Simulation
+            </h3>
+          </div>
+          <div className="flex flex-wrap gap-2 flex-grow">
             {skills.designAndSimulation.map((skill, index) => (
               <span
                 key={index}
-                className="px-3 py-1 bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200 rounded-full text-sm"
+                className="skill-tag bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-200 border border-yellow-200 dark:border-yellow-800"
               >
                 {skill}
               </span>
@@ -94,7 +112,14 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    </div>
+      
+      {/* Terminal-style Footer */}
+      <div className="mt-12 text-center">
+        <div className="inline-block font-mono text-sm text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-metal-gray-800 px-4 py-2 rounded-lg border border-gray-200 dark:border-metal-gray-700">
+          <span className="text-circuit-green-500">✓</span> Skills successfully enumerated • Last updated: {new Date().getFullYear()}
+        </div>
+      </div>
+    </section>
   );
 };
 

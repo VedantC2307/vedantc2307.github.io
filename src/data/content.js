@@ -188,25 +188,40 @@ export const experience = [
   {
     company: "Arizona State University",
     role: "Graduate Research Assistant",
-    location: "Neuromuscular Control & Human Robotics Lab",
+    location: "Tempe, Arizona, USA",
     duration: "December 2023 - Present",
     technologies: "ROS2, Raspberry Pi, ODrive, PCB Design",
     responsibilities: [
       "Developed ROS2-based impedance controller operating at 200Hz on Raspberry Pi, integrating ODrive, encoders, & sensors for real-time closed-loop control",
       "Designed custom PCB for power distribution to efficiently power the Raspberry Pi & ODrive, improving system reliability & safety in human-robot interaction experiments",
-      "Conducted biomechanical testing with 20 subjects, validating performance using real-time sensor data &  demonstrating reduced ankle sprain forces by 25%"
+      "Conducted biomechanical testing with 20 subjects, validating performance using real-time sensor data &  demonstrating reduced ankle sprain forces by 25%",
+      "Tested multiple control architectures with Raspberry Pi and LattePanda bridges, integrating ODrive, MATLAB, and sensors for real-time closed-loop control."
     ]
   },
   {
     company: "Simpliforge Creations",
     role: "Systems Engineer",
-    location: "",
+    location: "Hyderabad, India",
     duration: "February 2022 - March 2023",
     technologies: "Rhino Grasshopper, Delta PLCs, ABB Robotics",
     responsibilities: [
-      "Developed Rhino Grasshopper slicer algorithm to automate concrete 3D printing workflows, reducing design time by 40%, improved layer consistency by 20%, & decreased material waste by 20%",
-      "Automated actuator & pump motor control using Delta PLCs, optimizing motor speed & achieving 20% improvement in operational efficiency",
-      "Implemented path-planning algorithms for ABB IRB6700 robotic arm, considering singularity & joint limits to ensure smooth & efficient 3D printing trajectories"
+      "Developed Rhino Grasshopper slicer algorithm to automate concrete 3D printing workflows, reducing design time by 40%, improved layer consistency by 10%, & decreased material waste by 10%",
+      "Designed concrete 3D printing structures using SolidWorks, executed precise slicing to achieve optimal layer height for printing with ABB IRB6700 robotic arm",
+      "Managed the integration of Delta PLC to automate actuator & pump motor control, achieving 20% improvement in operational efficiency",
+      "Implemented path-planning for ABB IRB6700 robotic arm, optimizing for singularity & joint limits to ensure smooth & collision-free trajectories",
+      "Led team of five in designing & constructing custom 3-ton lifting systems, employing Finite Element Analysis for structural validation & ensuring successful on-site installations",
+      "Collaborated with executive leadership to develop compelling investment pitch decks targeting cement manufacturers & VCs, while overseeing tender documentation processes, successfully securing $0.3M in new projects",
+    ]
+  },
+  {
+    company: "Horeca1",
+    role: "Associate Project Executive",
+    location: "Mumbai, India",
+    duration: "August 2021 - Jan 2022",
+    technologies: "",
+    responsibilities: [
+      "Created cost-effective website, cutting online presence expenses by 60%, while gaining insights into cognitive biases’ influence on UI design",
+      "Coordinated business plan overhaul, achieving 30% revenue growth. Cultivated client connections through customer-centric initiatives and implemented effective marketing strategies for market expansion and revenue enhancement"
     ]
   },
   {
@@ -225,14 +240,33 @@ export const experience = [
 export const projects = [
   {
     title: "Autonomous AI Desktop Assistant Robot",
-    technologies: "ROS2, Vision-Language Models, Mecanum Drive",
-    githubLink: "https://github.com/VedantC2307/vlm_ros2_robot",
-    youtubeLink: "https://www.youtube.com/watch?v=FYqDDZrb-XY&ab_channel=VedantChoudhary",
-    description: "Roll-E integrates language models with a mobile robot platform, enabling natural language control and autonomous movement. The project seamlessly combines hardware with LLM reasoning capabilities for context-aware decision making, using a smartphone as its sensor hub for localization, vision, and voice interaction. Built with modularity at its core, Roll-E is designed with a modular architecture in mind with ongoing enhancements in navigation and autonomous actions."
+    technologies: "ROS2, Vision-Language Models, CAD, PCB Design",
+    githubLink: "https://github.com/VedantC2307/rolle_robot",
+    youtubeLink: "https://www.youtube.com/watch?v=4LokRFOcv3o",
+    description: "Roll-E integrates language models with a mobile robot platform, enabling natural language control and autonomous movement. The project seamlessly combines hardware with LLM reasoning capabilities for context-aware decision making, using a smartphone as its sensor hub for localization, vision, and voice interaction. Built with modularity at its core, Roll-E is designed with a modular architecture in mind with ongoing enhancements in navigation and autonomous actions.",
+    hasViewDetails: true
   },
   {
+    title: "ros2-mobile-sensor-bridge",
+    technologies: "Javascript, HTML, CSS, Android",
+    githubLink: "https://github.com/VedantC2307/PiPowerBridge",
+    description: "Mobile Sensor Bridge for ROS2 transforms your Android/IOS smartphone into a plug‑and‑play sensor suite—streaming camera, spatial pose data, and bidirectional audio into ROS2 topics via rclnodejs. Whether you’re prototyping perception pipelines or building voice‑driven robots, the package lets you leverage your phone’s sensors without extra hardware."
+  },
+  {
+    title: "Wearable Robotic Exoskeleton for Gait Assistance",
+    technologies: "ROS2, Embedded Systems, Human-Robot Interaction",
+    githubLink: "https://github.com/VedantC2307/Odrive-control-app",
+    githubLink2: "https://github.com/VedantC2307/OdriveCANControl/tree/vedant",
+    description: "At ASU’s Neuromuscular Control & Human Robotics Lab, I built the ROS2-based control framework for a soft robot exoskeleton, integrating ODrive motor driver, encoders, and biomechanical sensors for safe, real-time human–robot interaction.",
+    hasViewDetails: true,
+    hasMultipleGithub: true,
+    github1Label: "Control App",
+    github2Label: "ROS2 Control"
+  },
+  
+  {
     title: "Collaborative Multi-Robot Exploration & 2D Scene Reconstruction",
-    technologies: "ROS2, Multi-Robot Systems, LiDAR",
+    technologies: "ROS2, Multi-Robot Systems, LiDAR, Rviz, Gazebo",
     githubLink: "https://github.com/VedantC2307/MAE598-MultiRobotSystemsProject",
     description: "Developed ROS2-based multi-robot system for collaborative 3D mapping with 2D LiDAR. This project aims to enable synchronized exploration & real-time data fusion from multiple robots in dynamic environments."
   },
@@ -272,21 +306,19 @@ export const bio = {
   name: "Vedant Choudhary",
   title: "MS in Robotics & Autonomous Systems",
   subtitle: "I Build Robotics Systems! 🤖",
-  description: `From the intricate dance of robot limbs to the symphony of code, I thrive at the heart of robotics. Currently pursuing a 
-  Master's in Robotics, I am immersed in the intricacies of human-robot interactions at the Neurorobotics Lab. My background in Mechatronics 
-  and Robotics engineering is complemented by my proficiency in electro-mechanical systems, control, PCB/CAD design, and software.
-  
-  I specialize in system and software integration, bringing together embedded platforms, robotics frameworks, and automation tools to build seamless, 
-  functional systems. My projects include developing real-time control frameworks, custom hardware for human-robot interaction, and VLM-powered mobile 
-  robot using ROS2. I am also working on training reinforcement learning algorithms for a Unitree G1 humanoid robot. Fueled by adaptability, problem-solving, critical thinking, 
-  and a collaborative spirit, I excel in dynamic`,
+  description: `From the intricate dance of robot limbs to the symphony of code, I thrive at the heart of robotics.
+            With a Master’s in Robotics & Autonomous Systems, I specialize in building robotic system combining embedded platforms, 
+            robotics frameworks, and automation tools. I’ve worked on real-time control frameworks, custom hardware 
+            for human-robot interaction, and VLM-powered mobile robots using ROS2. Adaptable and curious, I excel at 
+            problem-solving and rapid prototyping to build seamless, intelligent robotics systems.
+            `,
   highlights: [
     "ROS2",
     "Embedded systems",
-    "Mechanical design",
-    "PCB design",
+    "Python/C++",
+    "CAD design",
+    "PCB Design",
     "3D printing",
     "Human-robot interaction",
-  
   ]
 };
