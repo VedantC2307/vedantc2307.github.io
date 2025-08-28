@@ -18,7 +18,7 @@ const PatentProject = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-gray-100 to-blue-50 dark:from-metal-gray-900 dark:via-metal-gray-800 dark:to-metal-gray-900">
+    <div className="min-h-screen bg-gradient-to-br from-white via-gray-50 to-blue-50 dark:from-metal-gray-900 dark:via-metal-gray-800 dark:to-metal-gray-900">
       {/* Animated Background Grid */}
       <div className="absolute inset-0 bg-circuit-pattern opacity-10"></div>
       

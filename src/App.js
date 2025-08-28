@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { ThemeProvider } from './contexts/ThemeContext';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
 // import About from './components/About';  // Comment this out
@@ -16,29 +17,31 @@ import ExoskeletonProject from './components/ExoskeletonProject';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-gray-100 to-blue-50 dark:from-metal-gray-900 dark:via-metal-gray-800 dark:to-metal-gray-900 tech-grid-pattern">
-      <Router>
-        <Nav />
-        <Routes>
-          <Route exact path="/3d-printer-project" element={<PrinterProject />} />
-          <Route exact path="/patent-project" element={<PatentProject />} />
-          <Route exact path="/ai-assistant-robot" element={<RolleRobotProject />} />
-          <Route exact path="/exoskeleton-project" element={<ExoskeletonProject />} />
-          <Route exact path="/" element={
-            <main className="pt-16">
-              <Hero />
-              {/* <About /> // Keep this commented out*/}
-              <Education />
-              <Projects />
-              <Skills />
-              <Experience />
-              <Patent />
-              <Contact />
-            </main>
-          } />
-        </Routes>
-      </Router>
-    </div>
+    <ThemeProvider>
+      <div className="min-h-screen bg-gradient-to-br from-white via-gray-50 to-blue-50 dark:from-metal-gray-900 dark:via-metal-gray-800 dark:to-metal-gray-900 tech-grid-pattern">
+        <Router>
+          <Nav />
+          <Routes>
+            <Route exact path="/3d-printer-project" element={<PrinterProject />} />
+            <Route exact path="/patent-project" element={<PatentProject />} />
+            <Route exact path="/ai-assistant-robot" element={<RolleRobotProject />} />
+            <Route exact path="/exoskeleton-project" element={<ExoskeletonProject />} />
+            <Route exact path="/" element={
+              <main className="pt-16">
+                <Hero />
+                {/* <About /> // Keep this commented out*/}
+                <Education />
+                <Projects />
+                <Skills />
+                <Experience />
+                <Patent />
+                <Contact />
+              </main>
+            } />
+          </Routes>
+        </Router>
+      </div>
+    </ThemeProvider>
   );
 }
 

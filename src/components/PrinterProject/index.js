@@ -20,7 +20,7 @@ const PrinterProject = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-gray-100 to-blue-50 dark:from-metal-gray-900 dark:via-metal-gray-800 dark:to-metal-gray-900">
+    <div className="min-h-screen bg-gradient-to-br from-white via-gray-50 to-blue-50 dark:from-metal-gray-900 dark:via-metal-gray-800 dark:to-metal-gray-900">
       {/* Animated Background Grid */}
       <div className="absolute inset-0 bg-circuit-pattern opacity-10"></div>
       
@@ -74,7 +74,7 @@ const PrinterProject = () => {
               </p>
               <div className="bg-circuit-green-50 dark:bg-circuit-green-900/20 border-l-4 border-circuit-green-500 p-4 rounded-r-lg">
                 <p className="text-circuit-green-700 dark:text-circuit-green-300 font-medium">
-                  <strong>Key Achievement:</strong> Assembling the printer was a meticulous process that required close attention to detail and problem-solving ability to overcome various challenges along the way.
+                  <strong>Key Achievement:</strong> This project was my first full scale project from concept to completion, and I successfully delivered a fully functional 3D printer that met all design specifications.
                 </p>
               </div>
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
@@ -107,7 +107,7 @@ const PrinterProject = () => {
               </div>
               <div>
                 <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                  I utilized <span className="font-semibold text-circuit-green-600 dark:text-circuit-green-400">SolidWorks</span> to craft a detailed 3D model for my printer. This powerful tool facilitated meticulous design adjustments, ensuring perfect component integration and flawless motion testing. The outcome was a precise and functional blueprint guiding the successful real-world construction of my 3D printer.
+                  I utilized <span className="font-semibold text-circuit-green-600 dark:text-circuit-green-400">SolidWorks</span> to craft a detailed 3D model for my printer. This powerful tool facilitated design adjustments, ensuring perfect component integration and flawless motion testing. The outcome was a precise and functional blueprint guiding the successful real-world construction of my 3D printer.
                 </p>
               </div>
             </div>

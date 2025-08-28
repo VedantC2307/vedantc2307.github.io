@@ -195,7 +195,7 @@ export const experience = [
       "Developed ROS2-based impedance controller operating at 200Hz on Raspberry Pi, integrating ODrive, encoders, & sensors for real-time closed-loop control",
       "Designed custom PCB for power distribution to efficiently power the Raspberry Pi & ODrive, improving system reliability & safety in human-robot interaction experiments",
       "Conducted biomechanical testing with 20 subjects, validating performance using real-time sensor data &  demonstrating reduced ankle sprain forces by 25%",
-      "Tested multiple control architectures with Raspberry Pi and LattePanda bridges, integrating ODrive, MATLAB, and sensors for real-time closed-loop control."
+      "Tested multiple control architectures with Raspberry Pi, microcontrollers, and LattePanda bridges, integrating ODrive, MATLAB, and sensors for real-time closed-loop control."
     ]
   },
   {
@@ -218,7 +218,7 @@ export const experience = [
     role: "Associate Project Executive",
     location: "Mumbai, India",
     duration: "August 2021 - Jan 2022",
-    technologies: "",
+    technologies: "Wordpress, Marketing strategies",
     responsibilities: [
       "Created cost-effective website, cutting online presence expenses by 60%, while gaining insights into cognitive biases’ influence on UI design",
       "Coordinated business plan overhaul, achieving 30% revenue growth. Cultivated client connections through customer-centric initiatives and implemented effective marketing strategies for market expansion and revenue enhancement"
@@ -227,7 +227,7 @@ export const experience = [
   {
     company: "Infinity Microsystems",
     role: "Mechatronics Engineer Intern",
-    location: "",
+    location: "Hyderabad, India",
     duration: "February 2021 - July 2021",
     technologies: "Mechanical Design, 3D Printing, Actuators",
     responsibilities: [
@@ -308,7 +308,7 @@ export const bio = {
   subtitle: "I Build Robotics Systems! 🤖",
   description: `From the intricate dance of robot limbs to the symphony of code, I thrive at the heart of robotics.
             With a Master’s in Robotics & Autonomous Systems, I specialize in building robotic system combining embedded platforms, 
-            robotics frameworks, and automation tools. I’ve worked on real-time control frameworks, custom hardware 
+            robotics frameworks, and software. I’ve worked on real-time control frameworks, custom hardware 
             for human-robot interaction, and VLM-powered mobile robots using ROS2. Adaptable and curious, I excel at 
             problem-solving and rapid prototyping to build seamless, intelligent robotics systems.
             `,
