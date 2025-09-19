@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c1d1e6ba.css",
-    "main.js": "/static/js/main.25fea6b1.js",
+    "main.js": "/static/js/main.9ea53916.js",
     "static/js/453.b2601152.chunk.js": "/static/js/453.b2601152.chunk.js",
     "static/media/3d_printer_gif.mp4": "/static/media/3d_printer_gif.1624a24b2a42ae31ed99.mp4",
     "static/media/3d printer.png": "/static/media/3d printer.fde373647526612e77c4.png",
@@ -27,11 +27,11 @@
     "static/media/Phone_sensor_graph.png": "/static/media/Phone_sensor_graph.accd7af6b2eafaedf86e.png",
     "index.html": "/index.html",
     "main.c1d1e6ba.css.map": "/static/css/main.c1d1e6ba.css.map",
-    "main.25fea6b1.js.map": "/static/js/main.25fea6b1.js.map",
+    "main.9ea53916.js.map": "/static/js/main.9ea53916.js.map",
     "453.b2601152.chunk.js.map": "/static/js/453.b2601152.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1d1e6ba.css",
-    "static/js/main.25fea6b1.js"
+    "static/js/main.9ea53916.js"
   ]
 }
