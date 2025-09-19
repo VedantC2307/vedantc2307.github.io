@@ -136,7 +136,7 @@ const ExoskeletonProject = () => {
                   <div className="w-3 h-3 bg-tech-blue-500 rounded-full mr-2"></div>
                   <span className="font-semibold text-tech-blue-700 dark:text-tech-blue-300">Encoder Feedback</span>
                 </div>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Publishes joint position and velocity data</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Publishes motor position and velocity data</p>
               </div>
               <div className="bg-circuit-green-50 dark:bg-circuit-green-900/20 border border-circuit-green-200 dark:border-circuit-green-700 rounded-lg p-4">
                 <div className="flex items-center mb-2">
@@ -178,21 +178,21 @@ const ExoskeletonProject = () => {
           </div>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {/* Waist-mounted motor + ODrive */}
+            {/* Waist-mounted robot + ODrive */}
             <div className="tech-card p-6 bg-gradient-to-br from-white to-orange-50 dark:from-metal-gray-800 dark:to-orange-900/10 border border-orange-200 dark:border-orange-800">
-              <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-4">Waist-mounted Motor + ODrive</h3>
+              <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-4">Waist-mounted Robot + ODrive</h3>
               <div className="flex justify-center">
                 <img 
                   src={deviceImage} 
-                  alt="Waist-mounted motor and ODrive setup" 
+                  alt="Waist-mounted robot and ODrive setup" 
                   className="w-full max-w-md h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />
               </div>
             </div>
 
-            {/* Knee exoskeleton */}
+            {/* Knee brace */}
             <div className="tech-card p-6 bg-gradient-to-br from-white to-red-50 dark:from-metal-gray-800 dark:to-red-900/10 border border-red-200 dark:border-red-800">
-              <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-4">Knee Exoskeleton</h3>
+              <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-4">Knee Brace</h3>
               <div className="flex justify-center">
                 <img 
                   src={lowerBodyImage} 

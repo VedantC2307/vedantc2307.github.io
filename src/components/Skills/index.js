@@ -49,7 +49,7 @@ const Skills = () => {
               </svg>
             </div>
             <h3 className="text-lg sm:text-xl font-bold text-gray-800 dark:text-white font-tech leading-tight">
-              Programming Languages
+              Programming & DevOps
             </h3>
           </div>
           <div className="flex flex-wrap gap-2">

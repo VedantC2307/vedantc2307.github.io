@@ -11,7 +11,7 @@ export const portfolioData = {
     featuredProjects: [
       {
         id: 1,
-        title: "Autonomous AI Desktop Assistant Robot",
+        title: "Autonomous AI Assistant Robot",
         description: "AI-powered desktop assistant robot using ROS2 for system integration",
         technologies: ["ROS2", "Vision-Language Model", "Mecanum Drive"],
         image: "/placeholder.jpg",
@@ -136,7 +136,9 @@ export const skills = {
   programmingLanguages: [
     "Python",
     "C++",
-    "C"
+    "JavaScript",
+    "Git",
+    "Docker",
   ],
   embeddedSystems: [
     "ARM",
@@ -239,7 +241,7 @@ export const experience = [
 
 export const projects = [
   {
-    title: "Autonomous AI Desktop Assistant Robot",
+    title: "Autonomous AI Assistant Robot",
     technologies: "ROS2, Vision-Language Models, CAD, PCB Design",
     githubLink: "https://github.com/VedantC2307/rolle_robot",
     youtubeLink: "https://www.youtube.com/watch?v=4LokRFOcv3o",

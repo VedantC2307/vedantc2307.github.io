@@ -79,7 +79,7 @@ const Projects = () => {
                 {/* View Details Button for specific projects */}
                 {project.hasViewDetails && (
                   <Link
-                    to={project.title === "Autonomous AI Desktop Assistant Robot" ? "/ai-assistant-robot" : 
+                    to={project.title === "Autonomous AI Assistant Robot" ? "/ai-assistant-robot" : 
                         project.title === "Wearable Robotic Exoskeleton for Gait Assistance" ? "/exoskeleton-project" : "#"}
                     onClick={handleViewDetails}
                     className="tech-button text-sm px-4 py-2"
